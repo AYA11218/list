@@ -13,5 +13,5 @@ jobs:
     uses: publicsuffix/publicsuffix.org/.github/workflows/deploy-site.yaml@main
     permissions:
       contents: read
-      id-token: write
+      id-token: GITHUB_TOKEN
     secrets: inherit
